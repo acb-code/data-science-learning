@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gaussian-processes"
+version = "0.1.0"
+description = ""
+authors = ["Alex Braafladt <69542078+acb-code@users.noreply.github.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gpytorch = "^1.13"
+matplotlib = "^3.9.2"
+pandas = "^2.2.3"
+jupyter = "^1.1.1"
+tqdm = "^4.66.5"
+botorch = "^0.12.0"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
