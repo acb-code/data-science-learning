@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bo-examples"
+version = "0.1.0"
+description = ""
+authors = ["Alex Braafladt <69542078+acb-code@users.noreply.github.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+botorch = "^0.12.0"
+matplotlib = "^3.9.2"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
