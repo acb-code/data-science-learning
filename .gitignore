@@ -163,3 +163,7 @@ cython_debug/
 
 # Data
 *.mat
+*.db
+
+
+classification-example/pt_data/*
